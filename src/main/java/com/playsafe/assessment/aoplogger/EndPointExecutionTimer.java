@@ -17,7 +17,7 @@ public class EndPointExecutionTimer {
 
 	Logger log = LoggerFactory.getLogger(this.getClass());
 
-	@Around("execution(* com.playsafe.assessment.controller.ConvertorCalculatorPostController+.*(..))")
+	@Around("execution(* com.playsafe.assessment.metriccontroller.MetricConverterController+.*(..))")
 	public Object ExecutionTimeLoggingAspect(ProceedingJoinPoint proceedingJoinPoint) throws Throwable {
 
 		MethodSignature methodSignature = (MethodSignature) proceedingJoinPoint.getSignature();
