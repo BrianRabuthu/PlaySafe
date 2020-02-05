@@ -1,0 +1,1096 @@
+{
+	"info": {
+		"_postman_id": "dda4d6ab-e273-4d50-b471-f3c578ff437c",
+		"name": "MetricConverter",
+		"description": "/conversions/ktoc\nThe ktoc endpoint should produce an output amount in celsius when given an input amount\nin kelvin.\n\n/conversions/ctok\nThe ctok endpoint should produce an output amount in kelvin when given an input amount in\ncelsius.\n\n/conversions/mtok\nThe mtok endpoint should produce, when given an input amount in miles, an output amount\nin kilometers.\n\n/conversions/ktom\nThe ktom endpoint should produce, when given an input amount in kilometers, an output\namount in miles.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8080/converter/ktoc",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"value\":100}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/converter/ktoc",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"converter",
+						"ktoc"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/converter/ktoc",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"value\":100}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/converter/mtok",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"converter",
+						"mtok"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/converter/mtok",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"value\":100}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/converter/mtok",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"converter",
+						"mtok"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/converter/ktom",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"value\":100}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/converter/ktom",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"converter",
+						"ktom"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/converter/mtok",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"value\":100}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/converter/mtok",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"converter",
+						"mtok"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/converter/mtok",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"value\":100}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/converter/mtok",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"converter",
+						"mtok"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/converter/mtok",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"value\":100}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/converter/mtok",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"converter",
+						"mtok"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/converter/ctok",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"value\":100}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/converter/ctok",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"converter",
+						"ctok"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/converter/ctok",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"value\":100}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/converter/ctok",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"converter",
+						"ctok"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/converter/ctok",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"value\":100}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/converter/ctok",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"converter",
+						"ctok"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/converter/ktoc",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"value\":100}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/converter/ktoc",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"converter",
+						"ktoc"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/converter/ktoc",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"value\":dfgfddfc}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/converter/ktoc",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"converter",
+						"ktoc"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/converter/ktoc",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"value\":dfgfddfc}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/converter/ktoc",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"converter",
+						"ktoc"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/converter/ktoc",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"value\":dfgfddfc}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/converter/ktoc",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"converter",
+						"ktoc"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/converter/ktoc",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"value\":dfgfddfc}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/converter/ktoc",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"converter",
+						"ktoc"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/converter/ktoc",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"value\":dfgfddfc}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/converter/ktoc",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"converter",
+						"ktoc"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/converter/ktoc",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"value\":dfgfddfc}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/converter/ktoc",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"converter",
+						"ktoc"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/converter/ktoc",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"value\":dfgfddfc}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/converter/ktoc",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"converter",
+						"ktoc"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/converter/ktoc",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"value\":dfgfddfc}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/converter/ktoc",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"converter",
+						"ktoc"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/converter/ktoc",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"value\":dfgfddfc}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/converter/ktoc",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"converter",
+						"ktoc"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/converter/ktoc",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"value\":dfgfddfc}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/converter/ktoc",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"converter",
+						"ktoc"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/converter/ktoc",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"value\":dfgfddfc}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/converter/ktoc",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"converter",
+						"ktoc"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/converter/ktocH",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"value\":dfgfddfc}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/converter/ktocH",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"converter",
+						"ktocH"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/converter/ktocH",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"value\":dfgfddfc}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/converter/ktocH",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"converter",
+						"ktocH"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/converter/ktoc",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"value\":dfgfddfc}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/converter/ktoc",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"converter",
+						"ktoc"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/converter/ktoc",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"value\":dfgfddfc}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/converter/ktoc",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"converter",
+						"ktoc"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/converter/ktoc",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"value\":dfgfddfc}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/converter/ktoc",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"converter",
+						"ktoc"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/converter/ktoc",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"value\":dfgfddfc}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/converter/ktoc",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"converter",
+						"ktoc"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/converter/ktoc",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"value\":dfgfddfc}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/converter/ktoc",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"converter",
+						"ktoc"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/converter/ktoc",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"value\":dfgfddfc}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/converter/ktoc",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"converter",
+						"ktoc"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/converter/ktoc",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"value\":dfgfddfc}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/converter/ktoc",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"converter",
+						"ktoc"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
