@@ -18,5 +18,23 @@ public class MetricConverterController {
 	public ResponseEntity<?> KelvinToCelcius(@RequestBody MetricConverterDTO  value) {		
 		 return new ResponseEntity( HttpStatus.OK);
 	}
+	//Receive celcius return kelvin	
+	@RequestMapping(method = RequestMethod.POST, value="/ctok")
+	public ResponseEntity<?> CelciusToKelvin(@RequestBody MetricConverterDTO  value) {		
+		return new ResponseEntity( HttpStatus.OK);
+		}
+	
+	//Receive miles return kilometers	
+	@RequestMapping(method = RequestMethod.POST, value="/mtok")
+	public ResponseEntity<?> MilesToKilos(@RequestBody MetricConverterDTO  value) {
+		return new ResponseEntity( HttpStatus.OK);
+		}
+	
+	//Receive kilometers return miles	
+	@RequestMapping(method = RequestMethod.POST, value="/ktom")
+	public ResponseEntity<?> KilosToMiles(@RequestBody MetricConverterDTO  value) {		
+	//	return ResponseEntity.ok(convert.ConvertMetrics(MetricType.KTOM, value.getValue()));
+		return new ResponseEntity( HttpStatus.OK);
+		}	
 
 }
